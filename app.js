@@ -1,7 +1,7 @@
-const express = require('express');
+import express, { json } from 'express';
 const app = express();
 
-app.use(express.json());
+app.use(json());
 
 const port = process.env.PORT || 3000;
 const verifyToken = process.env.VERIFY_TOKEN;
