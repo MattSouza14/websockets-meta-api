@@ -1,0 +1,16 @@
+{
+  "name": "websockets-meta-api",
+  "version": "1.0.0",
+  "description": "Webhook server for Meta API",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
